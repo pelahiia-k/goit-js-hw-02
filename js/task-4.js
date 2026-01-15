@@ -1,4 +1,4 @@
-function getShippingCost(country, price) {
+function getShippingCost(country) {
   switch (country) {
     case "Australia": {
       let price = 170;
@@ -6,17 +6,17 @@ function getShippingCost(country, price) {
       break;
     }
     case "China": {
-      price = 100;
+      let price = 100;
       return `Shipping to ${country} will cost ${price} credits`;
       break;
     }
     case "Chile": {
-      price = 250;
+      let price = 250;
       return `Shipping to ${country} will cost ${price} credits`;
       break;
     }
     case "Jamaica": {
-      price = 120;
+      let price = 120;
       return `Shipping to ${country} will cost ${price} credits`;
       break;
     }
